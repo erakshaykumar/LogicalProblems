@@ -6,7 +6,7 @@ public class PrimeNumber {
 	public static void checkPrime() {
 		int i, count=0;
 		try (Scanner sc = new Scanner(System.in)) {
-			System.out.print("Enter a Number: ");
+			System.out.print(" Enter a Number: ");
 			int num = sc.nextInt();
 
 			for(i = 2; i <= num/2 ; i++)
