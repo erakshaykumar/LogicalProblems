@@ -6,7 +6,7 @@ public class StopWatch {
 
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		System.out.println("Press 1 to start the stop watch");
+		System.out.println(" Press 1 to start the stop watch");
 		double startWatch=sc.nextDouble();
 
 		startWatch=System.currentTimeMillis();
